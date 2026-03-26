@@ -1,0 +1,15 @@
+{
+"name": "mmm-v0.1",
+"version": "0.1.0",
+"main": "apps/server/index.js",
+"scripts": {
+    "server": "node apps/server/index.js",
+    "client": "node apps/client/index.js"
+},
+"dependencies": {
+    "ws": "^8.0.0",
+    "uuid": "^9.0.0",
+    "fs-extra": "^11.0.0",
+    "dotenv": "^16.0.0"
+}
+}
